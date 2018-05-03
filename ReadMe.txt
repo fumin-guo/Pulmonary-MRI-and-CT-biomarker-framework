@@ -29,4 +29,4 @@ This package provides the main components of the pulmonary MRI and CT biomarker 
 	
 3) test demos for each biomarker module and commonly used Matlab functionalities (these .m files needs to be added to Matlab path). 
 
-Please refer to the "RunMe.txt" in each folder for specific components...
+Please refer to the "RunMe.txt" in each folder for specific components.

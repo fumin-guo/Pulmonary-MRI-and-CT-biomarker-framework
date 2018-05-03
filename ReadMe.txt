@@ -1,7 +1,7 @@
 This package provides the main components of the pulmonary MRI and CT biomarker framework, including:
 
 1) the software GUI (need Visual C++ Redistributable Packages for Visual Studio 2013 to run). 
-   The source code and the .exe GUI-based 3D visualizer are not provided because of copyright issue. However, readers who are interested in the visuaizer can contact 
+   The source code and the .exe GUI-based 3D visualizer are not provided because of copyright issue. However, readers who are interested in the visualizer can contact 
 	Dr. Aaron Fenster at: afenster@robarts.ca
 
 2) three representative biomarker modules (the remainder will be added soon): 

@@ -1,0 +1,8 @@
+This component provides inspiration-expiration CT-CT (MRI-MRI) parametric response maps (PRM).
+
+1. Reg_TVL1_Newton_GPU_opt.cu and Reg_TVL1_Newton_kernels.cu
+	GPU implementation of inspiration-expiration CT lung (e.g., provided by VIDA software) deformable registration algorithm.
+2. reg_CT_CT.m
+	This function calls the above GPU-based deformable registration algorithm and requires: 3D segmented inspiration-expiration CT lung.
+3. PRM_Analysis.m
+	This function performs PRM tissue classification using the registered inspiration-expiration CT lung and returns a tissue classification (PRM) map.

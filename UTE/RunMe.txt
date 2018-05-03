@@ -1,0 +1,14 @@
+This component implements multi-volume (full expiration [FE], functional residual capacity [FRC], 
+functional residual capacity + 1L [FRC1], and full inspiration [FI]) UTE MRI proton density maps.
+
+1. CMF3D_ML_GPU.cu and CMF3D_ML_kernels.cu
+	GPU implementation of UTE lung segmentation algorithm.
+2. HMRI_segmentation.m
+	The function calls the above GPU-based UTE lung segmentation algorithm and requires: 3D UTE images (FE.mhd, 
+FRC.mhd, FRC1.mhd and FI.mhd) and respecitive user seeds.
+3. Reg_TVL1_Newton_GPU_opt.cu and Reg_TVL1_Newton_kernels.cu
+	GPU implementation of segmented UTE lung deformable registration algorithm.
+4. reg_FE_FRC1.m
+	This function calls the above GPU-based UTE lung registration algorithm and returns registered UTE lung (FRC1.mhd as the fixed image).
+5. UTE_SI_slope.m
+	This function calculates and displays the derived four-volume UTE proton density maps using the registered UTE lung images.

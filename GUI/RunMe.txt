@@ -1,0 +1,6 @@
+This component provides the executable of the software GUI. Visual C++ Redistributable Packages for Visual Studio 2013 needs to be installed to run the .exe file for the GUI.
+
+The source code and the .exe GUI-based 3D visualizer are not provided because of copyright issue. However, readers who are interested in the visuaizer can contact 
+	Dr. Aaron Fenster at: afenster@robarts.ca
+
+

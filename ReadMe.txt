@@ -7,7 +7,7 @@ This package provides the main components of the pulmonary MRI and CT biomarker 
 2) three representative biomarker modules (the remainder will be added soon): 
 	i) Whole lung and lobar noble gas MRI ventilation measurements
 		Guo, Fumin, et al. "Globally optimal co-segmentation of three-dimensional pulmonary 1H and hyperpolarized 3He MRI with spatial consistence prior." Medical image analysis 23.1 (2015): 43-55.  
-		Guo, Fumin, et al. "Thoracic CT©\MRI coregistration for regional pulmonary structure¨Cfunction measurements of obstructive lung disease." Medical physics 44.5 (2017): 1718-1733.
+		Guo, Fumin, et al. "Thoracic CT-MRI coregistration for regional pulmonary structure-function measurements of obstructive lung disease." Medical physics 44.5 (2017): 1718-1733.
 	
 	ii) Multi-volume UTE MRI dynamic proton density maps
 		Sheikh, Khadija, et al. "Ultrashort echo time MRI biomarkers of asthma." Journal of Magnetic Resonance Imaging 45.4 (2017): 1204-1215.
